@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <section class="random">
+        <!-- Random Password Generator -->
+        <h1>Random Password Generator</h1>
+        <div class="password-text">
+            <input type="text" class="random-pass" id="text">
+            <i class="fa-solid fa-rotate-left reset"></i>
+            <a class="copy">Copy</a>
+        </div>
+        <div class="password-generator">
+            <div class="pass-length">Password length: <span class="length"></span></div>
+            <button class="minus">-</button>
+            <input type="range" min="1" max="20" value="10" class="range">
+            <button class="plus">+</button>
+        </div>
+        <div class="options">
+            <label>ABC<input data-type="ABC" checked type="checkbox"/></label>
+            <label>abc<input data-type="abc" type="checkbox" /></label>
+            <label>123<input data-type="123" type="checkbox" /></label>
+            <label>!@#<input data-type="!@#" type="checkbox" /></label>
+        </div>
+        
+        
+        
+        <!-- Password Generator -->
+    </section>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>

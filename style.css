@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    list-style:none;
+}
+body{
+    background-color: cornsilk;
+}
+.random{
+    width: 1200px;
+    max-width: 95%;
+    margin: 30px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.random h1{
+    margin: 60px 0;
+}
+.random button{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.copy{
+    background-color: rgb(50, 185, 230);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;    
+}
+.password-text input{
+    padding: 0 10px;
+    height: 25px;
+    width: 220px;
+    margin-right: 10px;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+}
+.rotate{
+    animation: rotate 1s;
+    /* transform: rotate(360deg); */
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg)
+    }
+    
+    
+}
